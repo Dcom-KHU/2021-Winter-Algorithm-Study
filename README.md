@@ -3,7 +3,7 @@
 
 ## Chapter
 | No  |        Title        |                              Problems                               |
-| :-: | :-----------------: | :----------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
+| :-: | :-----------------: | :----------------------------------------------------------------: | 
 | 00  |    Input/Output      |[Link](https://www.acmicpc.net/workbook/view/5634)|
 | 01  | Stack, Queue, Deque  |[Link](https://www.acmicpc.net/workbook/view/6616)|
 | 02  |       String         |[Link](https://www.acmicpc.net/workbook/view/6617)|
