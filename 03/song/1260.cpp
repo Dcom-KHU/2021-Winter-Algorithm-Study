@@ -2,11 +2,11 @@
 #include <queue>
 using namespace std;
 
-// 코드 간략화 위해 전역변수 사용 (재귀함수 인자 등)
-int n, m, v; // n:정점의 개수, m:간선의 개수, v:탐색 시작정점의 번호
-bool check[1001] = { false, }; // 1<=m<=1000, 1000번째 인덱스 사용하기 위해 1001개 크기 배열 사용
+//코드 간략화 위해 전역변수 사용 (재귀함수 인자 등)
+int n, m, v; //n:정점의 개수, m:간선의 개수, v:탐색 시작정점의 번호
+bool check[1001] = { false, }; //1<=m<=1000, 1000번째 인덱스 사용하기 위해 1001개 크기 배열 사용
 bool adjacentMatrix[1001][1001] = { false, };
-queue<int> q; //BFS에 사용
+queue<int> q; //bfs에 사용
 
 void dfs(int x)
 {
