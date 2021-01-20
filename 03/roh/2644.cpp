@@ -50,10 +50,8 @@ int main(){
     cout<<-1;
   }
   else{
-    int last = -1;
 	  //둘의 모든 공통된 조상들을 제외하고나면 그들이 최초로 공통되는 조상까지의 거리가 나온다.
     while(!a_parents.empty() && !b_parents.empty() && a_parents.back() == b_parents.back()){
-      last = a_parents.back();
       a_parents.pop_back();
       b_parents.pop_back();
     }

@@ -4,26 +4,25 @@
 #define INF 987654321
 using namespace std;
 
+//1916과 같습니다.
+//다만.... 출력만 다릅니다.
+//1916참조하세요(?)
+
 int dist[20001];
 
-struct myComp { 
-    bool operator()( pair<int, int>& a, pair<int, int>& b) 
-    { 
-      if(a.second == b.second)
-        return a.second < b.second; 
-      return a.first < b.first;
-    } 
-}; 
 int main() {
+	//initializing
   ios::sync_with_stdio(false);
   for(int i =0;i<20001; i++)
     dist[i] = INF;
+	
   int n_v, n_e;
   cin>>n_v>>n_e;
   vector<pair<int,int>> graph[20001];
   int strt;
   cin>>strt;
   dist[strt] = 0;
+	
   while(n_e--){
     int w,a,b;
     cin>>a>>b>>w;
