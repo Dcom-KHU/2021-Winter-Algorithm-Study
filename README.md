@@ -8,7 +8,7 @@
 | 01  | Stack, Queue, Deque  |[Link](https://www.acmicpc.net/workbook/view/6616)|
 | 02  |       String         |[Link](https://www.acmicpc.net/workbook/view/6617)|
 | 03  |       Graph          |[Link](https://www.acmicpc.net/workbook/view/6729)| 
-| 04  |        Tree          |null| 
+| 04  |        Tree          |[Link](https://www.acmicpc.net/workbook/view/6760)| 
 | 05  | Other Data Structure |null| 
 | 06  |         Math         |null| 
 | 07  | Dynamic Programming  |null| 
