@@ -7,38 +7,38 @@ int tree[26][2];
 void pre(int n) { // Preorder
 	if (n == -1) 
 		return;
-	cout << char(n + 'A'); //ÀÚ½Å
+	cout << char(n + 'A'); //ìžì‹ 
 
-	pre(tree[n][0]); //¿ÞÂÊ
+	pre(tree[n][0]); //ì™¼ìª½
 
-	pre(tree[n][1]); //¿À¸¥ÂÊ
+	pre(tree[n][1]); //ì˜¤ë¥¸ìª½
 }
 
 void in(int n) { // Inorder
 	if (n == -1) 
 		return;
 
-	in(tree[n][0]); //¿ÞÂÊ
+	in(tree[n][0]); //ì™¼ìª½
 
-	cout << char(n + 'A'); //ÀÚ½Å
+	cout << char(n + 'A'); //ìžì‹ 
 
-	in(tree[n][1]); //¿À¸¥ÂÊ
+	in(tree[n][1]); //ì˜¤ë¥¸ìª½
 }
 
 void post(int n) { // PostOrder
 	if (n == -1) 
 		return;
 
-	post(tree[n][0]); //¿ÞÂÊ
+	post(tree[n][0]); //ì™¼ìª½
 
-	post(tree[n][1]); //¿À¸¥ÂÊ
+	post(tree[n][1]); //ì˜¤ë¥¸ìª½
 
-	cout << char(n + 'A'); //ÀÚ½Å
+	cout << char(n + 'A'); //ìžì‹ 
 }
 
 int main() {
 	ios::sync_with_stdio(false);
-	int n; // ³ëµåÀÇ °³¼ö
+	int n; // ë…¸ë“œì˜ ê°œìˆ˜
 	cin >> n;
 	while (n--) {
 		char node, left, right;
