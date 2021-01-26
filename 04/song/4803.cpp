@@ -8,7 +8,7 @@ int n, m; //n:정점의 개수, m: 간선의 개수
 vector<int> adjList[MAXNODE];
 bool check[MAXNODE] = { false, };
 
-bool isTree(int x, int prevNode) //bfs이용하여 tree 개수파악 (cycle 형성될 경우 트리 x)
+bool isTree(int x, int prevNode) //dfs이용하여 tree 개수파악 (cycle 형성될 경우 트리 x)
 {
 	check[x] = true;
 	for (int i = 0; i < adjList[x].size(); i++)
