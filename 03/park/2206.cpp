@@ -5,11 +5,10 @@
 #include <algorithm>
 using namespace std;
 
-int n;  // 사람의 수
-int a, b;  // 찾고자 하는 넘들
-int m;  // 간선 수
-bool arr[1001][1001];
-int d[1001][1001][2];
+int n, m;  // 행, 렬
+
+bool arr[1001][1001];  // 벽, 길 정보
+int d[1001][1001][2];  // 여기까지 오는게 소요되는 최소거리
 
 int dx[4] = { 0, 1, 0, -1 };
 int dy[4] = { -1, 0, 1, 0 };
