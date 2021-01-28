@@ -9,7 +9,7 @@
 | 02  |       String         |[Link](https://www.acmicpc.net/workbook/view/6617)|
 | 03  |       Graph          |[Link](https://www.acmicpc.net/workbook/view/6729)| 
 | 04  |        Tree          |[Link](https://www.acmicpc.net/workbook/view/6760)| 
-| 05  | Other Data Structure |null| 
+| 05  | Other Data Structure |[Link](https://www.acmicpc.net/workbook/view/6842)| 
 | 06  |         Math         |null| 
 | 07  | Dynamic Programming  |null| 
 | 08  |  Divide and Conquer  |null| 
