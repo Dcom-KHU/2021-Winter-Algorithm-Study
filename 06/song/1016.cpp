@@ -29,28 +29,7 @@ int main()
 
 		}
 	}
-	//min ~ max까지 소수의 제곱수로 나누어지는 수들의 개수를 sqrMultCnt에 저장 (에라토스테네스의 체 로직 이용)
-	//for (long long i = min;i <= max;i++)
-	//{
-	//	if (!isSquareMult[i - min]) //i가 제곱수의 배수임이 확인되지 않은 경우
-	//	{
-	//		for (int j = 0;j < squareCnt;j++) //////
-	//		{
-	//			if (i % squareNum[j] == 0) //i가 제곱수로 나뉘어 떨어질 경우
-	//			{
-	//				for (long long k = i; k <= max;k += squareNum[j])
-	//				{
-	//					if (!isSquareMult[k - min])
-	//					{
-	//						isSquareMult[k - min] = true;
-	//						sqrMultCnt++;
-	//					}
-	//				}
-	//				break;
-	//			}
-	//		}
-	//	}
-	//}
+	
 	for (int i = 0; i < squareCnt;i++) //각 소수의 제곱수들에 대해 min ~ max 사이의 배수를 제거
 	{	
 		long long start = min; //범위 내에서 최초로 등장하는 제곱수의 배수
