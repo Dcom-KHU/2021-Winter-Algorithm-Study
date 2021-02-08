@@ -12,7 +12,7 @@
 | 05  | Other Data Structure |[Link](https://www.acmicpc.net/workbook/view/6842)| 
 | 06  |         Math         |[Link](https://www.acmicpc.net/workbook/view/6863)| 
 | 07  | Dynamic Programming  |[Link](https://www.acmicpc.net/workbook/view/6864)| 
-| 08  |  Divide and Conquer  |null| 
+| 08  |  Divide and Conquer  |[Link](https://www.acmicpc.net/workbook/view/6951)| 
 | 09  |        Sort          |null| 
 | 10  |       Search         |null|
 | 11  |   Greedy Algorithm   |null|
