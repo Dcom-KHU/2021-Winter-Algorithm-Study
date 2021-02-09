@@ -15,7 +15,7 @@ int cubeCnt(int n, int l, int w, int h) //l,w,h 크기의 상자에 n번째 큐브를 얼마�
 	int ret = 0;
 	if (n < 0) //배열 범위 벗어나면
 	{
-		if (l * w * h > 0) //아직 남은 공간이 있을 때
+		if ((long long)l * w * h > 0) //아직 남은 공간이 있을 때 (오버플로우로 인한 오류 회피 위해 long long 자료형 사용)
 			flag = false;
 		return ret;
 	}
