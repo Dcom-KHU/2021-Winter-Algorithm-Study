@@ -14,6 +14,6 @@
 | 07  | Dynamic Programming  |[Link](https://www.acmicpc.net/workbook/view/6864)| 
 | 08  |  Divide and Conquer  |[Link](https://www.acmicpc.net/workbook/view/6951)| 
 | 09  |        Sort          |null| 
-| 10  |       Search         |null|
+| 10  |       Search         |[Link](https://www.acmicpc.net/workbook/view/7019)|
 | 11  |   Greedy Algorithm   |null|
 | 12  |     Range Query      |null| 
