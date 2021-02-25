@@ -15,5 +15,5 @@
 | 08  |  Divide and Conquer  |[Link](https://www.acmicpc.net/workbook/view/6951)| 
 | 09  |        Sort          |null| 
 | 10  |       Search         |[Link](https://www.acmicpc.net/workbook/view/7019)|
-| 11  |   Greedy Algorithm   |null|
+| 11  |   Greedy Algorithm   |[Link](https://www.acmicpc.net/workbook/view/7084)|
 | 12  |     Range Query      |null| 
